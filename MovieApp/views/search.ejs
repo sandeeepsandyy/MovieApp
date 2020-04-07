@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Movie App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheet/design.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+
+        
+        <div class="dropdown mr-4">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">SanMau</a>
+                    <a id="home" class="nav-link" href="#">Home</a>
+                    
+           
+        </div>
+    </nav>
+
+
+    <h1 id="searchh1" class="text-center">Search Your Movie Here</h1>
+
+    <form class="form-inline" action="/results" method="GET" class=" d-flex">
+        <input type="text" name="search" class="form-control w-25" placeholder="Enter movie name..">
+        <button class="ml-3 text-center btn btn-success">Search Movie</button>
+    </form>
+
+</body>
+
+</html>
