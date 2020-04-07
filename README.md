@@ -1,2 +1,2 @@
 # Node.js
-The app is a movie searching app built using Node.js. 
+This repository consist of all my node.js projects.
